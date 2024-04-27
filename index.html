@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <i></i>
+        <h2>shopping list</h2>
+      </div>
+      <form id="form">
+        <div>
+          <input type="text" id="input" placeholder="add item" />
+        </div>
+        <div class="btn-controller">
+          <button class="btn" type="submit">
+            add item
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+      </form>
+      <div class="filter-controller">
+        <input type="text" id="filter" placeholder="search items" />
+      </div>
+      <div>
+        <ul class="item-list">
+          <li>
+            milk
+            <button class="remove">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </li>
+          <li>
+            orange
+            <button class="remove">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </li>
+          <li>
+            tea
+            <button class="remove">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </li>
+          <li>
+            food
+            <button class="remove">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <button class="button">clear all</button>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
